@@ -41,3 +41,41 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+/* === Mobile fix: show sidebar with social links on small screens === */
+@media (max-width: 768px) {
+  .sidebar.sticky {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    padding: 1em !important;
+  }
+  .author__avatar {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+  }
+  .author__avatar img {
+    max-width: 80px;
+    border-radius: 50%;
+  }
+  .author__content,
+  .author__urls-wrapper {
+    display: block !important;
+  }
+  .author__urls {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0.5em 0 0 0 !important;
+  }
+  .author__urls li {
+    display: block;
+    padding: 0.25em 0;
+  }
+}
