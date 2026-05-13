@@ -23,7 +23,7 @@ repository               : "hamid-hosseini/hamid-hosseini.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "hamid.jpg"
   name             : "Seyed Hamid Hosseini"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate at Northeastern University, working on reinforcement learning and stochastic control under uncertainty."
