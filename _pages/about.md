@@ -17,68 +17,57 @@ I work on **reinforcement learning** and **stochastic control** for sequential d
 
 1. **Robust Contextual Reinforcement Learning under Partial Observability and Latent Uncertainty**  
    Seyed Hamid Hosseini, Mahdi Imani  
-   *Manuscript in preparation*, 2026.  
-   *Develops a Transformer-based information-state embedding trained with a Soft-InfoNCE contrastive objective for robust RL under latent context uncertainty. Provides formal exploitability bounds quantifying the suboptimality of surrogate beliefs versus exact Bayesian beliefs.*
+   *Manuscript in preparation*, 2026. | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Develops a Transformer-based information-state embedding trained with a Soft-InfoNCE contrastive objective for robust RL under latent context uncertainty. Provides formal exploitability bounds quantifying the suboptimality of surrogate beliefs versus exact Bayesian beliefs.</em></div></details>
 
 2. **Belief-Based Reinforcement Learning for Asymmetric Partially Observable Zero-Sum Games**  
    Seyed Hamid Hosseini, Armita Kazeminajafabadi, Amidu Kamara, Mahdi Imani  
    **(ACC-2026)** American Control Conference.  
-   [Full Version](https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/401827974_Belief-Based_Reinforcement_Learning_for_Asymmetric_Partially_Observable_Zero-Sum_Games/links/69b20b39a5bf176ab54e8a0f/Belief-Based-Reinforcement-Learning-for-Asymmetric-Partially-Observable-Zero-Sum-Games.pdf)  
-   *Proves that local Bayesian beliefs are sufficient statistics for Nash play in asymmetric partially observable zero-sum games, and proposes a belief-conditioned actor–critic algorithm (CTDE). Validated on a 10-node network defense benchmark, where it approaches the full-information Nash bound under up to 50% miss-detection.*
+   [Full Version](https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/401827974_Belief-Based_Reinforcement_Learning_for_Asymmetric_Partially_Observable_Zero-Sum_Games/links/69b20b39a5bf176ab54e8a0f/Belief-Based-Reinforcement-Learning-for-Asymmetric-Partially-Observable-Zero-Sum-Games.pdf) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Proves that local Bayesian beliefs are sufficient statistics for Nash play in asymmetric partially observable zero-sum games, and proposes a belief-conditioned actor–critic algorithm (CTDE). Validated on a 10-node network defense benchmark, where it approaches the full-information Nash bound under up to 50% miss-detection.</em></div></details>
 
 3. **Decentralized Reinforcement Learning for Asymmetric Gene Network Interventions**  
    Seyed Hamid Hosseini, Mahdi Imani  
    **IEEE/ACM Transactions on Computational Biology and Bioinformatics**, 2025.  
-   [Full Version](https://ieeexplore.ieee.org/abstract/document/11250698)  
-   *Frames gene regulatory network intervention as an asymmetric two-player zero-sum game and develops a decentralized deep policy-gradient algorithm with provable robustness guarantees against the most adversarial cellular responses.*
+   [Full Version](https://ieeexplore.ieee.org/abstract/document/11250698) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Frames gene regulatory network intervention as an asymmetric two-player zero-sum game and develops a decentralized deep policy-gradient algorithm with provable robustness guarantees against the most adversarial cellular responses.</em></div></details>
 
 4. **Deep Reinforcement Learning for Intervention of Partially Observable Regulatory Networks**  
    Seyed Hamid Hosseini, Mahdi Imani  
    **(ACC-2025)** American Control Conference — ★ **Best Student Paper Award Finalist (1 of 6 finalists at ACC 2025)**.  
-   [Full Version](https://ieeexplore.ieee.org/abstract/document/11107606/)  
-   *Designs a belief-state deep Q-network for sequential intervention in partially observable Boolean regulatory networks, with a proof of convergence to the dynamic-programming optimum as observation noise vanishes.*
+   [Full Version](https://ieeexplore.ieee.org/abstract/document/11107606/) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Designs a belief-state deep Q-network for sequential intervention in partially observable Boolean regulatory networks, with a proof of convergence to the dynamic-programming optimum as observation noise vanishes.</em></div></details>
 
 5. **Pareto-Optimal Interventions in Gene Regulatory Networks using Signal Temporal Logic**  
    Seyed Hamid Hosseini, Derya Aksaray, Mahdi Imani  
    **(ACC-2025)** American Control Conference.  
-   [Full Version](https://ieeexplore.ieee.org/abstract/document/11108118)  
-   *Uses Signal Temporal Logic to formalize multi-objective trade-offs in therapeutic intervention — worst-case efficacy, response time, intervention frequency, and long-term stability — and produces Pareto-optimal policy sets for downstream selection.*
+   [Full Version](https://ieeexplore.ieee.org/abstract/document/11108118) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Uses Signal Temporal Logic to formalize multi-objective trade-offs in therapeutic intervention — worst-case efficacy, response time, intervention frequency, and long-term stability — and produces Pareto-optimal policy sets for downstream selection.</em></div></details>
 
 6. **Modeling Defensive Response of Cells to Therapies: Equilibrium Interventions for Regulatory Networks**  
    Seyed Hamid Hosseini, Mahdi Imani  
    **IEEE/ACM Transactions on Computational Biology and Bioinformatics**, 2024.  
-   [Full Version](https://ieeexplore.ieee.org/abstract/document/10487852/)  
-   *Models cancer therapy as a two-player zero-sum game between the intervention and the cell's adaptive defensive response, and computes stochastic Nash-equilibrium intervention policies that outperform standard approaches on p53–MDM2 and melanoma networks.*
+   [Full Version](https://ieeexplore.ieee.org/abstract/document/10487852/) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Models cancer therapy as a two-player zero-sum game between the intervention and the cell's adaptive defensive response, and computes stochastic Nash-equilibrium intervention policies that outperform standard approaches on p53–MDM2 and melanoma networks.</em></div></details>
 
 7. **Dynamic Intervention in Gene Regulatory Networks: A Partially Observed Zero-Sum Markov Game**  
    Seyed Hamid Hosseini, Mahdi Imani  
    **(CCTA-2024)** IEEE Conference on Control Technology and Applications.  
-   [Full Version](https://ieeexplore.ieee.org/abstract/document/10666558/)  
-   *Extends the zero-sum game framework to partial state observability via gene-expression measurements, combining MMSE state estimation with full-state Nash policies.*
+   [Full Version](https://ieeexplore.ieee.org/abstract/document/10666558/) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Extends the zero-sum game framework to partial state observability via gene-expression measurements, combining MMSE state estimation with full-state Nash policies.</em></div></details>
 
 8. **An Optimal Bayesian Intervention Policy in Response to Unknown Dynamic Cell Stimuli**  
    Seyed Hamid Hosseini, Mahdi Imani  
    **Information Sciences**, 2024.  
-   [Full Version](https://www.sciencedirect.com/science/article/pii/S0020025524003530)  
-   *Develops a Bayesian intervention policy that tracks the posterior over unknown cell responses and acts against a set of Nash policies, with empirical convergence to the optimal Nash policy on benchmark networks.*
+   [Full Version](https://www.sciencedirect.com/science/article/pii/S0020025524003530) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Develops a Bayesian intervention policy that tracks the posterior over unknown cell responses and acts against a set of Nash policies, with empirical convergence to the optimal Nash policy on benchmark networks.</em></div></details>
 
 9. **Privacy-Preserved Federated Reinforcement Learning for Autonomy in Signalized Intersections**  
    Negar Asadi, Seyed Hamid Hosseini, Mahdi Imani, Daniel P. Aldrich, Seyede Fatemeh Ghoreishi  
    **(ICTD-2024)** ASCE International Conference on Transportation and Development.  
-   [Full Version](https://ascelibrary.org/doi/abs/10.1061/9780784485514.035)  
-   *Proposes a federated RL framework enabling connected autonomous vehicles to share intersection-driving knowledge across heterogeneous environments without revealing private data.*
+   [Full Version](https://ascelibrary.org/doi/abs/10.1061/9780784485514.035) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Proposes a federated RL framework enabling connected autonomous vehicles to share intersection-driving knowledge across heterogeneous environments without revealing private data.</em></div></details>
 
 10. **Agent-based Time-Delay Margin in Consensus of Multi-Agent Systems by an Event-Triggered Control Method: Concept and Computation**  
     Seyed Hamid Hosseini, Mohammad Saleh Tavazoei, Nikolay V. Kuznetsov  
     **Asian Journal of Control**, 2023.  
-    [Full Version](https://onlinelibrary.wiley.com/doi/abs/10.1002/asjc.2814)  
-    *Defines a per-agent notion of time-delay margin for event-triggered multi-agent consensus, proves Zeno-free behavior, and provides an algorithm for computing each agent's delay tolerance.*
+    [Full Version](https://onlinelibrary.wiley.com/doi/abs/10.1002/asjc.2814) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Defines a per-agent notion of time-delay margin for event-triggered multi-agent consensus, proves Zeno-free behavior, and provides an algorithm for computing each agent's delay tolerance.</em></div></details>
 
 11. **Learning to Fight Against Cell Stimuli: A Game-Theoretic Perspective**  
     Seyed Hamid Hosseini, Mahdi Imani  
     **(CAI-2023)** IEEE Conference on Artificial Intelligence.  
-    [Full Version](https://ieeexplore.ieee.org/abstract/document/10194997/)  
-    *Argues — analytically and via melanoma-network experiments — that ignoring the cell's adaptive response to therapy explains why current genomic interventions become ineffective over time.*
+    [Full Version](https://ieeexplore.ieee.org/abstract/document/10194997/) | <details style="display:inline"><summary style="display:inline; cursor:pointer; color:#0078ff">Summary</summary><div style="margin-top:0.5em"><em>Argues — analytically and via melanoma-network experiments — that ignoring the cell's adaptive response to therapy explains why current genomic interventions become ineffective over time.</em></div></details>
 
 # Awards and honors
 
