@@ -25,7 +25,7 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 
 <li><strong>Belief-Based Reinforcement Learning for Asymmetric Partially Observable Zero-Sum Games</strong><br>
 Seyed Hamid Hosseini, Armita Kazeminajafabadi, Amidu Kamara, Mahdi Imani<br>
-<em>(American Control Conference)</em>, 2026.<br> <a href="https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/401827974_Belief-Based_Reinforcement_Learning_for_Asymmetric_Partially_Observable_Zero-Sum_Games/links/69b20b39a5bf176ab54e8a0f/Belief-Based-Reinforcement-Learning-for-Asymmetric-Partially-Observable-Zero-Sum-Games.pdf">Full Version</a>
+<em>American Control Conference</em>, 2026.<br> <a href="https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/401827974_Belief-Based_Reinforcement_Learning_for_Asymmetric_Partially_Observable_Zero-Sum_Games/links/69b20b39a5bf176ab54e8a0f/Belief-Based-Reinforcement-Learning-for-Asymmetric-Partially-Observable-Zero-Sum-Games.pdf">Full Version</a>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Proves that local Bayesian beliefs are sufficient statistics for Nash play in asymmetric partially observable zero-sum games, and proposes a belief-conditioned actor–critic algorithm (CTDE). Validated on a 10-node network defense benchmark, where it approaches the full-information Nash bound under up to 50% miss-detection.</em></p></details>
 </li>
 
@@ -43,7 +43,7 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 
 <li><strong>Pareto-Optimal Interventions in Gene Regulatory Networks using Signal Temporal Logic</strong><br>
 Seyed Hamid Hosseini, Derya Aksaray, Mahdi Imani<br>
-<em>(American Control Conference)</em>, 2025. <br><a href="https://ieeexplore.ieee.org/abstract/document/11108118">Full Version</a>
+<em>American Control Conference</em>, 2025. <br><a href="https://ieeexplore.ieee.org/abstract/document/11108118">Full Version</a>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Uses Signal Temporal Logic to formalize multi-objective trade-offs in therapeutic intervention — worst-case efficacy, response time, intervention frequency, and long-term stability — and produces Pareto-optimal policy sets for downstream selection.</em></p></details>
 </li>
 
@@ -67,7 +67,7 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 
 <li><strong>Privacy-Preserved Federated Reinforcement Learning for Autonomy in Signalized Intersections</strong><br>
 Negar Asadi, Seyed Hamid Hosseini, Mahdi Imani, Daniel P. Aldrich, Seyede Fatemeh Ghoreishi<br>
-<em>(ASCE International Conference on Transportation and Development)</em>, 2024.<br> <a href="https://ascelibrary.org/doi/abs/10.1061/9780784485514.035">Full Version</a>
+<em>ASCE International Conference on Transportation and Development</em>, 2024.<br> <a href="https://ascelibrary.org/doi/abs/10.1061/9780784485514.035">Full Version</a>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Proposes a federated RL framework enabling connected autonomous vehicles to share intersection-driving knowledge across heterogeneous environments without revealing private data.</em></p></details>
 </li>
 
