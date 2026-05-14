@@ -61,7 +61,7 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 
 <li><strong>An Optimal Bayesian Intervention Policy in Response to Unknown Dynamic Cell Stimuli</strong><br>
 Seyed Hamid Hosseini, Mahdi Imani<br>
-<em>Information Sciences</em>, 2024. <a href="https://www.sciencedirect.com/science/article/pii/S0020025524003530">Full Version</a>
+<em>Information Sciences</em>, 2024.<br> <a href="https://www.sciencedirect.com/science/article/pii/S0020025524003530">Full Version</a>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Develops a Bayesian intervention policy that tracks the posterior over unknown cell responses and acts against a set of Nash policies, with empirical convergence to the optimal Nash policy on benchmark networks.</em></p></details>
 </li>
 
