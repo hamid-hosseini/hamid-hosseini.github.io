@@ -30,27 +30,47 @@
     "vendor/font-awesome/brands"
 ;
 
-/* === Force sidebar to be a normal-flow element === */
-.sidebar,
-.sidebar.sticky,
-.author__urls-wrapper,
-.author__urls {
-  position: static !important;
-  height: auto !important;
-  max-height: none !important;
-  min-height: 0 !important;
-  overflow: visible !important;
-  overflow-y: visible !important;
-  -webkit-overflow-scrolling: auto !important;
-  top: auto !important;
-  bottom: auto !important;
-  border: none !important;
-  box-shadow: none !important;
-}
-
-.author__urls li {
-  white-space: normal !important;
-  word-break: break-word !important;
+/* === Mobile: show sidebar with social links on small/medium screens === */
+@media (max-width: 1024px) {
+  .sidebar.sticky {
+    display: block !important;
+    overflow: visible !important;
+    height: auto !important;
+    position: relative !important;
+    top: auto !important;
+    padding: 1em 0.5em !important;
+    width: 100% !important;
+  }
+  .author__avatar {
+    display: inline-block;
+    vertical-align: top;
+    width: auto;
+  }
+  .author__avatar img {
+    max-width: 80px;
+    border-radius: 50%;
+  }
+  .author__content,
+  .author__urls-wrapper {
+    display: block !important;
+  }
+  .author__urls {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    position: relative !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    padding: 0 !important;
+    margin: 0.5em 0 0 0 !important;
+    width: 100% !important;
+  }
+  .author__urls li {
+    display: block;
+    padding: 0.25em 0;
+    white-space: normal;
+    word-break: break-word;
+  }
 }
 
 /* === Justify body text === */
@@ -61,9 +81,7 @@
   hyphens: auto;
 }
 
-/* === Remove page footer entirely === */
-.page__footer,
-.page__footer-copyright,
-.page__footer-follow {
+/* === Remove page footer (gray bar at bottom) === */
+.page__footer {
   display: none !important;
 }
