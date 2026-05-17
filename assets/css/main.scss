@@ -35,14 +35,18 @@
 
 /* === Show sidebar with social links on small/medium screens === */
 @media (max-width: 1024px) {
+  .sidebar,
   .sidebar.sticky {
     display: block !important;
     overflow: visible !important;
+    overflow-y: visible !important;
+    max-height: none !important;
     height: auto !important;
     position: relative !important;
     top: auto !important;
     padding: 1em 0.5em !important;
     width: 100% !important;
+    -webkit-overflow-scrolling: auto !important;
   }
   .author__avatar {
     display: inline-block;
@@ -67,6 +71,8 @@
     padding: 0 !important;
     margin: 0.5em 0 0 0 !important;
     width: 100% !important;
+    max-height: none !important;
+    overflow: visible !important;
   }
   .author__urls li {
     display: block;
