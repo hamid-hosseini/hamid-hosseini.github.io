@@ -26,7 +26,7 @@ author:
   avatar           : "hamid.jpg"
   name             : "Seyed Hamid Hosseini"
   pronouns         : # example: "she/her"  
-  bio              : "PhD candidate, working on reinforcement learning and stochastic control under uncertainty."
+  bio              : "PhD candidate, working on RL and stochastic control under uncertainty."
   location         : #
   employer         : "Northeastern University, Boston, MA"
   uri              : # URL
