@@ -30,7 +30,7 @@
     "vendor/font-awesome/brands"
 ;
 
-/* === Force sidebar to be a normal-flow element on all screens === */
+/* === Force sidebar to be a normal-flow element === */
 .sidebar,
 .sidebar.sticky,
 .author__urls-wrapper,
@@ -59,4 +59,11 @@
   text-align: justify;
   text-justify: inter-word;
   hyphens: auto;
+}
+
+/* === Remove page footer entirely === */
+.page__footer,
+.page__footer-copyright,
+.page__footer-follow {
+  display: none !important;
 }
