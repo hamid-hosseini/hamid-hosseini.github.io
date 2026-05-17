@@ -2,9 +2,6 @@
 ---
 /*
  * This file controls what is imported from /_sass
- *
- * Note that the files are processed in the order they are imported, so they are partly
-   sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 @import
     "vendor/breakpoint/breakpoint",
@@ -33,53 +30,27 @@
     "vendor/font-awesome/brands"
 ;
 
-/* === Show sidebar with social links on small/medium screens === */
-@media (max-width: 1024px) {
-  .sidebar,
-  .sidebar.sticky {
-    display: block !important;
-    overflow: visible !important;
-    overflow-y: visible !important;
-    max-height: none !important;
-    height: auto !important;
-    position: relative !important;
-    top: auto !important;
-    padding: 1em 0.5em !important;
-    width: 100% !important;
-    -webkit-overflow-scrolling: auto !important;
-  }
-  .author__avatar {
-    display: inline-block;
-    vertical-align: top;
-    width: auto;
-  }
-  .author__avatar img {
-    max-width: 80px;
-    border-radius: 50%;
-  }
-  .author__content,
-  .author__urls-wrapper {
-    display: block !important;
-  }
-  .author__urls {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    position: relative !important;
-    background: transparent !important;
-    box-shadow: none !important;
-    padding: 0 !important;
-    margin: 0.5em 0 0 0 !important;
-    width: 100% !important;
-    max-height: none !important;
-    overflow: visible !important;
-  }
-  .author__urls li {
-    display: block;
-    padding: 0.25em 0;
-    white-space: normal;
-    word-break: break-word;
-  }
+/* === Force sidebar to be a normal-flow element on all screens === */
+.sidebar,
+.sidebar.sticky,
+.author__urls-wrapper,
+.author__urls {
+  position: static !important;
+  height: auto !important;
+  max-height: none !important;
+  min-height: 0 !important;
+  overflow: visible !important;
+  overflow-y: visible !important;
+  -webkit-overflow-scrolling: auto !important;
+  top: auto !important;
+  bottom: auto !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.author__urls li {
+  white-space: normal !important;
+  word-break: break-word !important;
 }
 
 /* === Justify body text === */
