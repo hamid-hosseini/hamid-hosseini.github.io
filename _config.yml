@@ -27,8 +27,8 @@ author:
   name             : "Seyed Hamid Hosseini"
   pronouns         : # example: "she/her"  
   bio              : "PhD candidate at Northeastern University, working on reinforcement learning and stochastic control under uncertainty."
-  location         : "Boston, MA"
-  employer         : "Northeastern University"
+  location         : ""
+  employer         : "Northeastern University, Boston, MA"
   uri              : # URL
   email            : "hosseini.ha@northeastern.edu" 
 
