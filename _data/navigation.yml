@@ -1,3 +1,6 @@
 main:
+  - title: "Papers"
+    url: /papers/
   - title: "CV"
-    url: /files/CVHAMID.pdf
+    url: /files/CV.pdf
+    
