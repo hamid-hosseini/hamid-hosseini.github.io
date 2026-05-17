@@ -37,7 +37,7 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 
 <li><strong>Deep Reinforcement Learning for Intervention of Partially Observable Regulatory Networks</strong><br>
 Seyed Hamid Hosseini, Mahdi Imani<br>
-<em>American Control Conference</em>, 2025  — ★ <strong>Best Student Paper Award Finalist (1 of 6 finalists)</strong>. <br><a href="https://ieeexplore.ieee.org/abstract/document/11107606/">Full Version</a>
+<em>American Control Conference</em>, 2025  — ★ <strong>Best Student Paper Award Finalist</strong>. <br><a href="https://ieeexplore.ieee.org/abstract/document/11107606/">Full Version</a>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Designs a belief-state deep Q-network for sequential intervention in partially observable Boolean regulatory networks, with a proof of convergence to the dynamic-programming optimum as observation noise vanishes.</em></p></details>
 </li>
 
