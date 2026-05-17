@@ -9,13 +9,11 @@ redirect_from:
 
 # About me
 
-# About me
-
 I am a PhD candidate in Electrical and Computer Engineering at Northeastern University, advised by [Prof. Mahdi Imani](https://coe.northeastern.edu/people/imani-mahdi/). Before that, I completed my MSc in Electrical Engineering (Control) at [Sharif University of Technology](https://ee.sharif.edu/en/) under [Prof. Mohammad Saleh Tavazoei](https://sharif.edu/~tavazoei/), where I also earned my BSc in Electrical Engineering.
 
 I work on **deep reinforcement learning** for sequential decision-making under uncertainty, partial observability, and adversarial dynamics. I develop belief-state actor-critic and policy-gradient algorithms with centralized training and decentralized execution (CTDE), deep Q-networks over continuous belief spaces, and Transformer-based contrastive representation learning, grounded in **partially observable stochastic games** with formal **Nash-equilibrium**, contraction, and exploitability guarantees. I validate these methods across **cybersecurity**, **autonomous systems**, and **computational biology**. Current focus: contextual representation learning for robust RL under latent uncertainty.
 
-# Publications
+# Selected Publications
 
 <ol>
 
