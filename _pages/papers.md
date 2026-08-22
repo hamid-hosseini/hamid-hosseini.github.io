@@ -16,6 +16,12 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline"> Summary</summary><p style="margin-top:0.5em"><em>Develops a Transformer-based information-state embedding trained with a Soft-InfoNCE contrastive objective for robust RL under latent context uncertainty. Provides formal exploitability bounds quantifying the suboptimality of surrogate beliefs versus exact Bayesian beliefs.</em></p></details>
 </li>
 
+<li><strong>Bayes-Adaptive Reinforcement Learning in Binary Factored MDPs with Unknown Structure</strong><br>
+Seyed Hamid Hosseini, Fatemeh Zarei, Bahram Shafai, Mahdi Imani<br>
+<em>65th IEEE Conference on Decision and Control (CDC)</em>, 2026.<br> <a href="https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/412084881_Bayes-Adaptive_Reinforcement_Learning_in_Binary_Factored_MDPs_with_Unknown_Structure/links/6a7a20a27b52ad375d60d9d5/Bayes-Adaptive-Reinforcement-Learning-in-Binary-Factored-MDPs-with-Unknown-Structure.pdf">Full Version</a>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Bayes-adaptive RL for binary factored MDPs learning structure and transition probabilities online. Beta-Bernoulli conjugacy gives closed-form posterior updates, no sampling. The intractable Bayesian information state is compressed to state, structure beliefs, and predictive probabilities, proven sufficient for one-step prediction and bounded against Bayes-optimal. A DQN acts on the compressed space.</em></p></details>
+</li>
+
 <li><strong>Belief-Based Reinforcement Learning for Asymmetric Partially Observable Zero-Sum Games</strong><br>
 Seyed Hamid Hosseini, Armita Kazeminajafabadi, Amidu Kamara, Mahdi Imani<br>
 <em>American Control Conference</em>, 2026.<br> <a href="https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/401827974_Belief-Based_Reinforcement_Learning_for_Asymmetric_Partially_Observable_Zero-Sum_Games/links/69b20b39a5bf176ab54e8a0f/Belief-Based-Reinforcement-Learning-for-Asymmetric-Partially-Observable-Zero-Sum-Games.pdf">Full Version</a>
