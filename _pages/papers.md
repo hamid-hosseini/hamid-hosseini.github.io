@@ -11,7 +11,7 @@ A complete list of my publications. For highlights, see the [home page](/).
 <ol>
 
 <li><strong>Exploitability Bounds for Learned Information States in Zero-Sum Games with Latent Context</strong><br>
-Seyed Hamid Hosseini, Seyede Fatemeh Ghoreishi, M. Imani, M. Imani<br>
+Seyed Hamid Hosseini, Seyede Fatemeh Ghoreishi, Mohsen Imani, Mahdi Imani<br>
 <em>AAAI Conference on Artificial Intelligence</em>, 2027 (under review).<br>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline"> Summary</summary><p style="margin-top:0.5em"><em>Studies zero-sum partially observable stochastic games in which a latent context, hidden from the defender, shapes the dynamics, sensing, reward, and the adversary's admissible responses. Shows that defending against an oracle adversary suffices, and bounds the exploitability of a defense built on a learned history representation by its one-step reward and prediction errors, with matching lower bounds. A robust-Bellman pseudometric over contexts guides contrastive training of a nested Transformer-recurrent context-state encoder, evaluated on four benchmarks including the CAGE-2 cyber-defense simulator.</em></p></details>
 </li>
