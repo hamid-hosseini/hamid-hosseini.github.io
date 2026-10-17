@@ -28,7 +28,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "PhD, working on RL and stochastic control under uncertainty."
   location         : #
-  employer         : "Northeastern University, Boston, MA"
+  employer         : #"Northeastern University, Boston, MA"
   uri              : # URL
   email            : "hosseini.ha@northeastern.edu" 
 
