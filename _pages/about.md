@@ -19,15 +19,15 @@ In fall 2026, I am a Research Intern at [Manus Bio](https://www.manus.bio), wher
 
 <ol>
 
-<li><strong>Exploitability Bounds for Learned Information States in Zero-Sum Games with Latent Context</strong><br>
+<li><strong>Game Approximate Information States: Exploitability Guarantees for Learned Defenses Under Latent Context</strong><br>
 Seyed Hamid Hosseini, Seyede Fatemeh Ghoreishi, Mohsen Imani, Mahdi Imani<br>
 <em>AAAI Conference on Artificial Intelligence</em>, 2027 (under review).<br>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline"> Summary</summary><p style="margin-top:0.5em"><em>Studies zero-sum partially observable stochastic games in which a latent context, hidden from the defender, shapes the dynamics, sensing, reward, and the adversary's admissible responses. Shows that defending against an oracle adversary suffices, and bounds the exploitability of a defense built on a learned history representation by its one-step reward and prediction errors, with matching lower bounds. A robust-Bellman pseudometric over contexts guides contrastive training of a nested Transformer-recurrent context-state encoder, evaluated on four benchmarks including the CAGE-2 cyber-defense simulator.</em></p></details>
 </li>
 
-<li><strong>Exploitability Bound for Belief-Based Defenses in Partially Observable Zero-Sum Games with Latent Objectives</strong><br>
+<li><strong>Defending Against Hidden Objectives: Belief Filtering with Learned Opponent Models and Order-Optimal Exploitability Bounds</strong><br>
 Seyed Hamid Hosseini, Seyede Fatemeh Ghoreishi, Mohsen Imani, Mahdi Imani<br>
-<em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>, 2027 (under review).<br> <a href="https://github.com/hamid-hosseini/belief-based-defense">Code</a>
+<em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>, 2027 (under review).<br>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Studies zero-sum partially observable stochastic games in which the adversary's reward is drawn per episode from a finite set of models, known to the adversary and hidden from the defender. Shows that the joint posterior over state and reward model is the defender's exact information state, and bounds the exploitability of a defense that filters with a single learned adversary model by its filter and policy errors, with a matching lower bound. The likelihood model, defender, and centralized critic are trained jointly; on a Bayesian attack graph and a pursuit-evasion game, the learned defense is the least exploitable deployable defender.</em></p></details>
 </li>
 
