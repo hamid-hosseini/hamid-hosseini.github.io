@@ -10,10 +10,16 @@ A complete list of my publications. For highlights, see the [home page](/).
 
 <ol>
 
-<li><strong>Robust Contextual Reinforcement Learning under Partial Observability and Latent Uncertainty</strong><br>
-Seyed Hamid Hosseini, Mahdi Imani<br>
-<em>Manuscript in preparation</em>, 2026.<br>
-<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline"> Summary</summary><p style="margin-top:0.5em"><em>Develops a Transformer-based information-state embedding trained with a Soft-InfoNCE contrastive objective for robust RL under latent context uncertainty. Provides formal exploitability bounds quantifying the suboptimality of surrogate beliefs versus exact Bayesian beliefs.</em></p></details>
+<li><strong>Exploitability Bounds for Learned Information States in Zero-Sum Games with Latent Context</strong><br>
+Seyed Hamid Hosseini, Seyede Fatemeh Ghoreishi, M. Imani, M. Imani<br>
+<em>AAAI Conference on Artificial Intelligence</em>, 2027 (under review).<br>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline"> Summary</summary><p style="margin-top:0.5em"><em>Studies zero-sum partially observable stochastic games in which a latent context, hidden from the defender, shapes the dynamics, sensing, reward, and the adversary's admissible responses. Shows that defending against an oracle adversary suffices, and bounds the exploitability of a defense built on a learned history representation by its one-step reward and prediction errors, with matching lower bounds. A robust-Bellman pseudometric over contexts guides contrastive training of a nested Transformer-recurrent context-state encoder, evaluated on four benchmarks including the CAGE-2 cyber-defense simulator.</em></p></details>
+</li>
+
+<li><strong>Exploitability Bound for Belief-Based Defenses in Partially Observable Zero-Sum Games with Latent Objectives</strong><br>
+Seyed Hamid Hosseini, Seyede Fatemeh Ghoreishi, M. Imani, M. Imani<br>
+<em>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</em>, 2027 (under review).<br>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline"> Summary</summary><p style="margin-top:0.5em"><em>Studies zero-sum partially observable stochastic games in which the adversary's reward is drawn per episode from a finite set of models, known to the adversary and hidden from the defender. Shows that the joint posterior over state and reward model is the defender's exact information state, and bounds the exploitability of a defense that filters with a single learned adversary model by its filter and policy errors, with a matching lower bound. The likelihood model, defender, and centralized critic are trained jointly; on a Bayesian attack graph and a pursuit-evasion game, the learned defense is the least exploitable deployable defender.</em></p></details>
 </li>
 
 <li><strong>Bayes-Adaptive Reinforcement Learning in Binary Factored MDPs with Unknown Structure</strong><br>
@@ -25,7 +31,7 @@ Seyed Hamid Hosseini, Fatemeh Zarei, Bahram Shafai, Mahdi Imani<br>
 <li><strong>Belief-Based Reinforcement Learning for Asymmetric Partially Observable Zero-Sum Games</strong><br>
 Seyed Hamid Hosseini, Armita Kazeminajafabadi, Amidu Kamara, Mahdi Imani<br>
 <em>American Control Conference</em>, 2026.<br> <a href="https://www.researchgate.net/profile/Seyed-Hamid-Hosseini/publication/401827974_Belief-Based_Reinforcement_Learning_for_Asymmetric_Partially_Observable_Zero-Sum_Games/links/69b20b39a5bf176ab54e8a0f/Belief-Based-Reinforcement-Learning-for-Asymmetric-Partially-Observable-Zero-Sum-Games.pdf">Full Version</a>
-<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Proves that local Bayesian beliefs are sufficient statistics for Nash play in asymmetric partially observable zero-sum games, and proposes a belief-conditioned actor–critic algorithm (CTDE). Validated on a 10-node network defense benchmark, where it approaches the full-information Nash bound under up to 50% miss-detection.</em></p></details>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Proves that local Bayesian beliefs are sufficient statistics for Nash play in asymmetric partially observable zero-sum games, and proposes a belief-conditioned actor-critic algorithm (CTDE). Validated on a 10-node network defense benchmark, where it approaches the full-information Nash bound under up to 50% miss-detection.</em></p></details>
 </li>
 
 <li><strong>Decentralized Reinforcement Learning for Asymmetric Gene Network Interventions</strong><br>
@@ -36,20 +42,20 @@ Seyed Hamid Hosseini, Mahdi Imani<br>
 
 <li><strong>Deep Reinforcement Learning for Intervention of Partially Observable Regulatory Networks</strong><br>
 Seyed Hamid Hosseini, Mahdi Imani<br>
-<em>American Control Conference</em>, 2025  — ★ <strong>Best Student Paper Award Finalist (1 of 6 finalists)</strong>. <br><a href="https://ieeexplore.ieee.org/abstract/document/11107606/">Full Version</a>
+<em>American Control Conference</em>, 2025, ★ <strong>Best Student Paper Award Finalist (1 of 6 finalists)</strong>.<br><a href="https://ieeexplore.ieee.org/abstract/document/11107606/">Full Version</a>
 <details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Designs a belief-state deep Q-network for sequential intervention in partially observable Boolean regulatory networks, with a proof of convergence to the dynamic-programming optimum as observation noise vanishes.</em></p></details>
 </li>
 
 <li><strong>Pareto-Optimal Interventions in Gene Regulatory Networks using Signal Temporal Logic</strong><br>
 Seyed Hamid Hosseini, Derya Aksaray, Mahdi Imani<br>
-<em>American Control Conference</em>, 2025. <br><a href="https://ieeexplore.ieee.org/abstract/document/11108118">Full Version</a>
-<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Uses Signal Temporal Logic to formalize multi-objective trade-offs in therapeutic intervention — worst-case efficacy, response time, intervention frequency, and long-term stability — and produces Pareto-optimal policy sets for downstream selection.</em></p></details>
+<em>American Control Conference</em>, 2025.<br><a href="https://ieeexplore.ieee.org/abstract/document/11108118">Full Version</a>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Uses Signal Temporal Logic to formalize multi-objective trade-offs in therapeutic intervention (worst-case efficacy, response time, intervention frequency, and long-term stability) and produces Pareto-optimal policy sets for downstream selection.</em></p></details>
 </li>
 
 <li><strong>Modeling Defensive Response of Cells to Therapies: Equilibrium Interventions for Regulatory Networks</strong><br>
 Seyed Hamid Hosseini, Mahdi Imani<br>
 <em>IEEE/ACM Transactions on Computational Biology and Bioinformatics</em>, 2024.<br> <a href="https://ieeexplore.ieee.org/abstract/document/10487852/">Full Version</a>
-<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Models cancer therapy as a two-player zero-sum game between the intervention and the cell's adaptive defensive response, and computes stochastic Nash-equilibrium intervention policies that outperform standard approaches on p53–MDM2 and melanoma networks.</em></p></details>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Models cancer therapy as a two-player zero-sum game between the intervention and the cell's adaptive defensive response, and computes stochastic Nash-equilibrium intervention policies that outperform standard approaches on p53-MDM2 and melanoma networks.</em></p></details>
 </li>
 
 <li><strong>Dynamic Intervention in Gene Regulatory Networks: A Partially Observed Zero-Sum Markov Game</strong><br>
@@ -72,8 +78,8 @@ Negar Asadi, Seyed Hamid Hosseini, Mahdi Imani, Daniel P. Aldrich, Seyede Fateme
 
 <li><strong>Learning to Fight Against Cell Stimuli: A Game-Theoretic Perspective</strong><br>
 Seyed Hamid Hosseini, Mahdi Imani<br>
-<em>IEEE Conference on Artificial Intelligence</em>, 2023. <br><a href="https://ieeexplore.ieee.org/abstract/document/10194997/">Full Version</a>
-<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Argues — analytically and via melanoma-network experiments — that ignoring the cell's adaptive response to therapy explains why current genomic interventions become ineffective over time.</em></p></details>
+<em>IEEE Conference on Artificial Intelligence</em>, 2023.<br><a href="https://ieeexplore.ieee.org/abstract/document/10194997/">Full Version</a>
+<details style="display:inline"><summary style="cursor:pointer; color:#0078ff; display:inline">| Summary</summary><p style="margin-top:0.5em"><em>Argues, analytically and via melanoma-network experiments, that ignoring the cell's adaptive response to therapy explains why current genomic interventions become ineffective over time.</em></p></details>
 </li>
 
 <li><strong>Agent-based Time-Delay Margin in Consensus of Multi-Agent Systems by an Event-Triggered Control Method: Concept and Computation</strong><br>
